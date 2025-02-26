@@ -1,0 +1,17 @@
+
+.title{
+    grid-column: 1 / span 2;
+    border-bottom: solid 3px;
+    margin-bottom: 3px;
+}
+
+.song{
+    grid-column: 1 / 2;
+    grid-row: 2/3;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 70px 50px;
+}
